@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Damion');
+
+html{
+  background-color: black;
+}
+
+#body{
+  background: url(http://3.bp.blogspot.com/-ORF9d-1ON80/T7i9jkqSCkI/AAAAAAAAJPQ/eCLANsehw0s/s1920/abstract-wallpaper-33.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Damion", serif;
+  font-size: 60px;
+}
+
+.center-block{
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  border-color: black;
+  align-content: center;
+  display: block;
+  /*margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;*/
+  margin: 40px auto;
+  border: 3px solid white;
+  box-shadow: 3px 3px 8px black;
+  margin
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  box-shadow: 3px 3px 8px black;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: flex-end;
+  color: #90BE6D;
+  text-align: center;
+  margin: 1em;
+  border: 3px solid #90BE6D;
+  padding: 1em;
+  text-decoration: none !important;
+  transition: 0.4s;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+li a:hover {
+  background-color: #90BE6D;
+  color: #111;
+}
+
+.about{
+  height: 400px;
+  width: 100%;
+  background: #90BE6D;
+}
+
+.projects{
+  height: 400px;
+  width: 100%;
+  background: black;
+}
