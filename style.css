@@ -30,7 +30,7 @@ h3 {
   text-align: center;
   color: white;
   font-family: "Varela Round", serif;
-  font-size: 36px; }
+  font-size: 30px; }
 
 .center-block {
   height: 256px;
@@ -93,6 +93,15 @@ li a:hover {
   height: calc(100vh - 82px);
   width: 100%;
   background: black;
+  text-align: left;
+  display: flex;
+  font-family: "Varela Round", serif;
+  font-size: 1.5em; }
+
+#contact {
+  height: calc(100vh - 82px);
+  width: 100%;
+  background: #90BE6D;
   text-align: left;
   display: flex;
   font-family: "Varela Round", serif;
